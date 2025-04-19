@@ -7,8 +7,6 @@ const Banner = () => {
 
   return (
     <div className="relative bg-gradient-to-r from-indigo-500 via-sky-500 to-emerald-400 rounded-3xl shadow-xl overflow-hidden flex flex-col md:flex-row px-6 sm:px-10 md:px-14 lg:px-20 py-12 mt-20 md:mx-10">
-
-      {/* ------- Left Side ------- */}
       <div className="flex-1 flex flex-col justify-center">
         <h1 className="text-white text-3xl sm:text-4xl md:text-5xl font-bold leading-tight">
           Book Appointment
@@ -26,8 +24,6 @@ const Banner = () => {
           Create Account
         </button>
       </div>
-
-      {/* ------- Right Side ------- */}
       <div className="hidden md:flex md:w-1/2 items-end justify-end relative">
         <img
           className="w-full max-w-sm rounded-[50px] object-contain animate-fadeInUp"

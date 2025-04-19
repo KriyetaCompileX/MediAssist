@@ -14,7 +14,7 @@ const DoctorContextProvider = (props) => {
     const [dashData, setDashData] = useState(false)
     const [profileData, setProfileData] = useState(false)
 
-    // Getting Doctor appointment data from Database using API
+    // Doctor appoinment data fetch krne k liye db s
     const getAppointments = async () => {
         try {
 
@@ -32,7 +32,7 @@ const DoctorContextProvider = (props) => {
         }
     }
 
-    // Getting Doctor profile data from Database using API
+    // Doctor profile data fetch krne k liye db s
     const getProfileData = async () => {
         try {
 
@@ -46,7 +46,7 @@ const DoctorContextProvider = (props) => {
         }
     }
 
-    // Function to cancel doctor appointment using API
+    // Cancel Doctor appoinment k api
     const cancelAppointment = async (appointmentId) => {
 
         try {
@@ -56,7 +56,6 @@ const DoctorContextProvider = (props) => {
             if (data.success) {
                 toast.success(data.message)
                 getAppointments()
-                // after creating dashboard
                 getDashData()
             } else {
                 toast.error(data.message)
@@ -69,7 +68,7 @@ const DoctorContextProvider = (props) => {
 
     }
 
-    // Function to Mark appointment completed using API
+    // Mark appoinment completed k liye
     const completeAppointment = async (appointmentId) => {
 
         try {
@@ -79,7 +78,6 @@ const DoctorContextProvider = (props) => {
             if (data.success) {
                 toast.success(data.message)
                 getAppointments()
-                // Later after creating getDashData Function
                 getDashData()
             } else {
                 toast.error(data.message)
@@ -92,7 +90,7 @@ const DoctorContextProvider = (props) => {
 
     }
 
-    // Getting Doctor dashboard data using API
+    // Doctor dashboard data fetch krne k liye
     const getDashData = async () => {
         try {
 

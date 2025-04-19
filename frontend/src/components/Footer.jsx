@@ -5,8 +5,6 @@ const Footer = () => {
   return (
     <footer className="bg-gradient-to-br from-white to-slate-100 rounded-t-3xl shadow-inner px-6 sm:px-10 md:px-16 py-14 mt-40">
       <div className="grid grid-cols-1 sm:grid-cols-[2fr_1fr_1fr] gap-12 text-sm text-gray-700">
-
-        {/* Brand and About */}
         <div>
           <img className="mb-5 w-36" src={assets.logo} alt="MediAssist Logo" />
           <p className="max-w-md leading-6 text-slate-600">
@@ -16,7 +14,6 @@ const Footer = () => {
           </p>
         </div>
 
-        {/* Company Links */}
         <div>
           <h3 className="text-lg font-semibold text-slate-800 mb-4">Company</h3>
           <ul className="space-y-2">
@@ -28,7 +25,6 @@ const Footer = () => {
           </ul>
         </div>
 
-        {/* Contact Info */}
         <div>
           <h3 className="text-lg font-semibold text-slate-800 mb-4">Get in Touch</h3>
           <ul className="space-y-2">
@@ -38,8 +34,6 @@ const Footer = () => {
         </div>
 
       </div>
-
-      {/* Divider and Bottom Note */}
       <div className="mt-10 border-t pt-6 text-center text-xs text-slate-500">
         © 2025 MediAssist.com — All Rights Reserved.
       </div>
