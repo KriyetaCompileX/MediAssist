@@ -1,0 +1,120 @@
+[
+    {
+      "user_id": "user_om_patil",
+      "name": "Om Patil",
+      "age": 24,
+      "gender": "Male",
+      "blood_group": "B+",
+      "contact": "9876543210",
+      "visit_date": "2025-04-19",
+      "vitals": {
+        "height_cm": 178,
+        "weight_kg": 75,
+        "blood_pressure": "120/80",
+        "heart_rate": 72,
+        "temperature_c": 36.8
+      },
+      "diagnosis": "Seasonal Allergy",
+      "medications": [
+        {
+          "name": "Cetirizine",
+          "dosage": "10mg",
+          "frequency": "Once daily"
+        }
+      ],
+      "lab_results": {
+        "CBC": {
+          "WBC": "6.1 x10^3/uL",
+          "RBC": "4.7 x10^6/uL",
+          "Hemoglobin": "14.5 g/dL"
+        }
+      },
+      "summary": "Om Patil, a 24-year-old male, visited on 2025-04-19 with symptoms of seasonal allergy. Vitals were within normal range. Prescribed Cetirizine 10mg once daily. CBC results were normal."
+    },
+    {
+      "user_id": "user_gopal",
+      "name": "Gopal",
+      "age": 29,
+      "gender": "Male",
+      "blood_group": "O+",
+      "contact": "9876543211",
+      "visit_date": "2025-04-18",
+      "vitals": {
+        "height_cm": 172,
+        "weight_kg": 80,
+        "blood_pressure": "130/85",
+        "heart_rate": 76,
+        "temperature_c": 37.1
+      },
+      "diagnosis": "Type 2 Diabetes",
+      "medications": [
+        {
+          "name": "Metformin",
+          "dosage": "500mg",
+          "frequency": "Twice daily"
+        }
+      ],
+      "lab_results": {
+        "Fasting Blood Sugar": "130 mg/dL",
+        "HbA1c": "7.2%"
+      },
+      "summary": "Gopal, a 29-year-old male, was diagnosed with Type 2 Diabetes on 2025-04-18. Vitals showed slightly elevated BP. Prescribed Metformin 500mg twice daily. Lab results indicate elevated blood sugar levels."
+    },
+    {
+      "user_id": "user_raj",
+      "name": "Raj",
+      "age": 32,
+      "gender": "Male",
+      "blood_group": "A+",
+      "contact": "9876543212",
+      "visit_date": "2025-04-17",
+      "vitals": {
+        "height_cm": 180,
+        "weight_kg": 85,
+        "blood_pressure": "140/90",
+        "heart_rate": 80,
+        "temperature_c": 36.9
+      },
+      "diagnosis": "Hypertension",
+      "medications": [
+        {
+          "name": "Amlodipine",
+          "dosage": "5mg",
+          "frequency": "Once daily"
+        }
+      ],
+      "lab_results": {
+        "Cholesterol": "220 mg/dL",
+        "LDL": "150 mg/dL",
+        "HDL": "40 mg/dL"
+      },
+      "summary": "Raj, 32 years old, presented with elevated blood pressure (140/90) on 2025-04-17. Diagnosed with Hypertension and prescribed Amlodipine 5mg daily. Cholesterol levels were borderline high."
+    },
+    {
+      "user_id": "user_shivam",
+      "name": "Shivam",
+      "age": 26,
+      "gender": "Male",
+      "blood_group": "AB+",
+      "contact": "9876543213",
+      "visit_date": "2025-04-20",
+      "vitals": {
+        "height_cm": 175,
+        "weight_kg": 70,
+        "blood_pressure": "118/76",
+        "heart_rate": 70,
+        "temperature_c": 36.7
+      },
+      "diagnosis": "Healthy",
+      "medications": [],
+      "lab_results": {
+        "CBC": {
+          "WBC": "5.8 x10^3/uL",
+          "RBC": "4.9 x10^6/uL",
+          "Hemoglobin": "15.0 g/dL"
+        }
+      },
+      "summary": "Shivam, a 26-year-old male, had a routine check-up on 2025-04-20. Vitals and CBC results were normal. No medication was prescribed. Overall health condition is good."
+    }
+  ]
+  

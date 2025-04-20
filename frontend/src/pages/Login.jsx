@@ -37,7 +37,7 @@ const Login = () => {
 
   useEffect(() => {
     if (token && state === 'login') {
-      navigate('/')
+      navigate('/home')
     }
   }, [token, state])
 

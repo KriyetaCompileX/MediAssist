@@ -114,9 +114,9 @@ const MyAppointments = () => {
                                 )}
                                 {!item.cancelled && !item.payment && !item.isCompleted && activePayment === item._id && (
                                     <>
-                                        <button onClick={() => payWithStripe(item._id)} className="btn border border-gray-300 text-gray-600 hover:bg-gray-100 px-4 py-2 rounded-lg flex items-center">
+                                        {/* <button onClick={() => payWithStripe(item._id)} className="btn border border-gray-300 text-gray-600 hover:bg-gray-100 px-4 py-2 rounded-lg flex items-center">
                                             <img src={assets.stripe_logo} alt="Stripe" className="h-5" />
-                                        </button>
+                                        </button> */}
                                         <button onClick={() => payWithRazorpay(item._id)} className="btn border border-gray-300 text-gray-600 hover:bg-gray-100 px-4 py-2 rounded-lg flex items-center">
                                             <img src={assets.razorpay_logo} alt="Razorpay" className="h-5" />
                                         </button>
